@@ -5,6 +5,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 .nva-title{
     color: #181818;
@@ -37,4 +38,28 @@ nav a{
     font-size: 20px;
     font-weight: 700px;
     padding: 15px 35px;
+}
+.header{
+    background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+.banner{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+}
+.profile{
+    background-image: url(images/header_bg);
+    width: 500px; 
+
+}
+.banner-tool{
+    font-size: 30px;
+}
+.banner-title{
+
+    font-size: 45px;
+    font-weight: 700;
 }
