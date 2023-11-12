@@ -49,6 +49,10 @@ nav a{
     padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;
 }
 .profile{
     background-image: url(images/header_bg);
@@ -57,9 +61,35 @@ nav a{
 }
 .banner-tool{
     font-size: 30px;
+    margin: 0px;
+
 }
 .banner-title{
 
     font-size: 45px;
     font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+/* main */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #fff8f3;
+    margin: 130px;
+
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-discription{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
